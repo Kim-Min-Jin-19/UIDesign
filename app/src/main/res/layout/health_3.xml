@@ -13,32 +13,34 @@
         android:layout_marginStart="124dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="124dp"
-        android:layout_marginBottom="211dp"
         android:fontFamily="@font/esamanru_medium"
         android:text="건강 등록"
+        android:textColor="#E19861"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="227dp"
-        android:layout_height="32dp"
+        android:id="@+id/txtHealth"
+        android:layout_width="224dp"
+        android:layout_height="56dp"
         android:layout_marginStart="91dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="92dp"
         android:layout_marginEnd="91dp"
         android:fontFamily="@font/esamanru_medium"
-        android:text="건강을 등록해주세요 !"
+        android:text="예방접종 1차 \n 대소변 잘 가림"
+        android:textAlignment="center"
+        android:textColor="#E19861"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtTime" />
+        app:layout_constraintTop_toBottomOf="@+id/txtDay" />
 
     <TextView
-        android:id="@+id/txtTime"
+        android:id="@+id/txtDay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="118dp"
@@ -46,23 +48,29 @@
         android:layout_marginEnd="118dp"
         android:fontFamily="@font/esamanru_medium"
         android:text="4월 15일"
+        android:textColor="#E19861"
         android:textSize="35dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtGive" />
 
-    <ImageView
-        android:id="@+id/imageView4"
+    <ImageButton
+        android:id="@+id/imgBtn7"
         android:layout_width="84dp"
         android:layout_height="71dp"
         android:layout_marginStart="153dp"
         android:layout_marginTop="356dp"
         android:layout_marginEnd="153dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:text="등록"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtGive"
-        app:srcCompat="@drawable/paw" />
+        app:srcCompat="@drawable/paw_register" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

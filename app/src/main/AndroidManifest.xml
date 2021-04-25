@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Register_Health" />
+        <activity android:name=".Register_Health_1" />
+        <activity android:name=".Register_Food" />
+        <activity android:name=".Register_Run" />
+        <activity android:name=".Register_Snack" />
+
     </application>
 
 </manifest>
